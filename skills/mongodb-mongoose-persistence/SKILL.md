@@ -44,7 +44,7 @@ Provide repeatable patterns and scripts for MongoDB persistence in AnalogJS/Nx a
 - Note: TypeScript decorators require `target: ES2015` or later in `tsconfig.json` (no `reflect-metadata` needed).
 
 ### 7) Add API routes
-- Use AnalogJS `server/routes/api/*`.
+- Use AnalogJS `server/routes/api/*` or `libs/<library>/src/backend/api/routes/api/*`.
 - Validate inputs with Zod (or existing validation library).
 - Use `defineEventHandler` and `readBody` for input handling.
 
