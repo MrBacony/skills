@@ -2,10 +2,6 @@
 name: story-driven-development
 description: 'Create or update a Storybook story for every component and every relevant behavior, state, and variation. Use when implementing or changing UI components, Storybook stories, component states, interactions, visual regressions, Komponenten, Verhalten, Zustände, Varianten, or reusable UI. Works alongside test-driven-development and is not mutually exclusive.'
 license: MIT
-compatibility: "Designed for local development with Storybook; Playwright/Node.js may be required for baseline capture scripts"
-metadata:
-	author: nun-wird-geheiratet
-	version: "1.0"
 ---
 
 # Story-Driven Development (SDD)
